@@ -2,13 +2,26 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+       SongListView()
+    }
+}
+
+struct SongListView: View{
+    var body: some View{
+        List {
+            Text("노래 1")
+            Text("노래 2")
+            Text("노래 3")
+            Text("노래 1")
+            Text("노래 2")
+            Text("노래 3")
+            Text("노래 1")
+            Text("노래 2")
+            Text("노래 3")
+            Text("노래 1")
+            Text("노래 2")
+            Text("노래 3")
         }
-        .padding()
     }
 }
 
